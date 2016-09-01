@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css"/>
+
+  <script src="https://checkout.stripe.com/checkout.js"></script>
+</head>
+<body>
+  <div class ="row">
+    <div class ="col-sm-5"></div>
+    <div class ="col-sm-6">
+      <p class ="intro">
+        Enter to win a pair of TicketMaster Official Platinum Concert Seats ( <i>Section 211 - Row 1 - Seats 3 &amp; 4</i> ) to Kanye West's "Saint Pablo Tour" at Madison Square Garden on September  5, 2016.
+      </p>
+      <p class ="">
+        Enter as many times as you'd like between now &amp; <b>Sun, Sep. 5, 2016  5:00 PM</b>. Winner will be contacted via phone &amp; email as well as announced on this site shortly
+          after the deadline. Winner will receive tickets via email.
+      </p>
+      <p class ="">
+
+      </p>
+      <div class ="raffleForm">
+      <form id ="userForm">
+      <h1> Raffle Entry Form</h1>
+      <p>$2.00 per entry. Proceeds will be donated to James Carter's <a href= "http://gofundme.com/jamescarterfund" target="_blank">GoFundMe campaign</a></p>
+      <label>First name:</label>
+      <input name="firstName" type="name" placeholder="John"/>
+      <label>Last name:</label>
+      <input name="lastName" type="name" placeholder="Doe"/>
+      <label>Email:</label>
+      <input name="email" type="email" placeholder="johndoe@example.com"/>
+      <label>Phone Number:</label>
+      <input name="phone" type="phone" placeholder="555-555-5555"/>
+      <label>Number of Entries:</label>
+      <input name="entries" type="entries" placeholder="4"/>
+    </form>
+    <button id ="payWithCard">Pay with Card</button>
+    </div>
+    </div>
+    <div class ="col-sm-1"></div>
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+  <!-- <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+  <script type="text/javascript">
+  Stripe.setPublishableKey('pk_test_1oQStgxkEZbAq0AacGqpYEct');
+</script> -->
+</body>
+</html>
